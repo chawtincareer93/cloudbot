@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+.terraform.lock.hcl
+
+# Bot working data (contains your resource specs and state)
+workspaces/
+
+# Python / env
+__pycache__/
+.venv/
+.env
+
+# Windows/WSL junk
+*:Zone.Identifier
